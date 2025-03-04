@@ -6,46 +6,66 @@
     <title>Cooking site</title>
 </head>
 <body>
-    <h1 style="text-align: center;">Кулінарний сайт "Готуй сам!"</h1>
-    <h2 style="text-align: center;">Знаходиться на стадії розробки</h2>
-    <img src="images/zavtrak-iz-lavasha-s-nachinkoi-na-skovorode_1613888378_16_max.jpg" alt="Зображення 1">
-    <img src="images/veshenki-na-skovorode-jarenye_1614523351_10_max.jpg" alt="Зображення 2">
-    
-    <table style="border: 1px solid black;;">
+  <header>
+    <h1>Готуй сам!</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="about.html">Про проєкт</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <h2>Категорії рецептів</h2>
+    <ul>
+        <li>Супи</li>
+        <li>Напої</li>
+        <li>Закуски</li>
+        <li>Салати</li>
+        <li>Випічка</li>
+        <li>Десерти</li>
+        <li>Соуси</li>
+        <li>Бутерброди</li>
+        <li>Консервація</li>
+        <li>Торти</li>
+        <li>Інші страви</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Популярні рецепти</h2>
+    <table>
         <tr>
-          <th>sadgsadg</th>
-          <th>dagsgadsg</th>
-          <th>adsgdsagsad</th>
+            <th>Назва</th>
+            <th>Час приготування</th>
         </tr>
         <tr>
-          <td>dsagfdsa</td>
-          <td>dsagdsg</td>
-          <td>gdsadsag</td>
+            <td>Борщ</td>
+            <td>1 година</td>
         </tr>
         <tr>
-          <td>gfdsgsdf</td>
-          <td>dsafadsf</td>
-          <td>fsdgdsf</td>
+            <td>Олів'є</td>
+            <td>30 хв</td>
         </tr>
     </table>
-    <ul style="list-style-type:disc;">
-        <li>івпаівфпівфп</li>
-        <li>іфвпвіфа</li>
-        <li>вфіпвіфп</li>
-    </ul>
-    <form action="" method="get" class="form-example">
-        <div class="form-example">
-          <label for="name">Enter your name: </label>
-          <input type="text" name="name" id="name" required />
-        </div>
-        <div class="form-example">
-          <label for="password">Enter your password: </label>
-          <input type="password" name="password" id="password" required />
-        </div>
-        <div class="form-example">
-          <input type="ok" value="Ok" />
-        </div>
-      </form>
-      <a href="logic.html">Посилання на сторінку з описаном предметної галузі і бізнес-логіки.</a>
+</section>
+
+<section>
+    <h2>Залишити відгук</h2>
+    <form>
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="comment">Коментар:</label>
+        <textarea id="comment" name="comment" required></textarea>
+        <br>
+        <button type="submit">Надіслати</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Готуй сам!</p>
+</footer>
 </body>
 </html>
