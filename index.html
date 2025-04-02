@@ -1,72 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooking site</title>
+    <title>Готуй сам!</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Готуй сам!</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="logic.html">Про проєкт</a></li>
-        </ul>
-    </nav>
-</header>
-
-<section>
-    <h2>Категорії рецептів</h2>
-    <ul>
-        <li>Супи</li>
-        <li>Напої</li>
-        <li>Закуски</li>
-        <li>Салати</li>
-        <li>Випічка</li>
-        <li>Десерти</li>
-        <li>Соуси</li>
-        <li>Бутерброди</li>
-        <li>Консервація</li>
-        <li>Торти</li>
-        <li>Інші страви</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Популярні рецепти</h2>
-    <img src="images/zavtrak-iz-lavasha-s-nachinkoi-na-skovorode_1613888378_16_max.jpg" alt="">
-    <table>
-        <tr>
-            <th>Назва</th>
-            <th>Час приготування</th>
-        </tr>
-        <tr>
-            <td>Борщ</td>
-            <td>1 година</td>
-        </tr>
-        <tr>
-            <td>Олів'є</td>
-            <td>30 хв</td>
-        </tr>
-    </table>
-</section>
-
-<section>
-    <h2>Залишити відгук</h2>
-    <form>
-        <label for="name">Ім'я:</label>
-        <input type="text" id="name" name="name" required>
-        <br>
-        <label for="comment">Коментар:</label>
-        <textarea id="comment" name="comment" required></textarea>
-        <br>
-        <button type="submit">Надіслати</button>
-    </form>
-</section>
-
-<footer>
-    <p>&copy; 2025 Готуй сам!</p>
-</footer>
+    <div class="container">
+        <aside class="sidebar">
+            <h1 class="logo">Готуй сам!</h1>
+            <nav>
+                <ul>
+                    <li>Супи</li>
+                    <li>Напої</li>
+                    <li>Закуски</li>
+                    <li>Салати</li>
+                    <li>Випічка</li>
+                    <li>Десерти</li>
+                    <li>Соуси</li>
+                    <li>Бутерброди</li>
+                    <li>Консервація</li>
+                    <li>Торти</li>
+                    <li>Інші страви</li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <header class="top-bar">
+                <div class="search-container">
+                    <div class="search-wrapper">
+                      <input type="text" class="search-bar"> 
+                      <span class="search-icon">🔍</span>  
+                    </div>
+                </div>
+                <div class="user-controls">
+                    <button class="add-btn">+</button>
+                    <button class="profile-btn">👤</button>
+                </div>
+            </header>
+            <section class="recipes">
+                
+            </section>
+        </main>
+        <footer class="footer">
+            <span>2025 Готуй сам</span>
+            <span>Інформація про сайт</span>
+            <span>Пошта: horbyk.dmytro2017@gmail.com</span>
+        </footer>
+    </div>
 </body>
 </html>
